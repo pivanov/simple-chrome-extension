@@ -1,0 +1,14 @@
+{
+  "name": "Simple Chrome Extension",
+  "description": "",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "permissions": ["contextMenus", "tabs", "notifications", "http://*/*", "https://*/*"],
+  "background": {
+    "page": "background.html"
+  },
+  "icons": {
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  }
+}
